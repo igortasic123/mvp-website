@@ -4,10 +4,8 @@ const FourthSection = () => {
   return (
     <div
       className="
-    w-full
     flex
     flex-col
-    items-center
     p-20
     
     
@@ -37,9 +35,9 @@ const FourthSection = () => {
         We're here to help, get in touch with us.
       </div>
         </div>
-
-        <form className="flex w-1/2 flex-col gap-10">
-            <div className="flex flex-col gap-10">
+      <div className="items-center md:p-20 md:w-3/4 self-center">
+        <form>
+            <div className="flex flex-col gap-10  ">
             <div className="flex flex-col gap-5">
             <label htmlFor="name">Name </label>
             <input type="text" name="name" id="name" required className="border-[1px] border-gray-300 rounded-xl p-5"/>
@@ -61,6 +59,7 @@ const FourthSection = () => {
             </div>
             </div>
         </form>
+        </div>
   
 
 

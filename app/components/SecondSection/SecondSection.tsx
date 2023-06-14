@@ -19,9 +19,7 @@ const SecondSection = () => {
     <div
       className="
     w-full
-    flex
     flex-col
-    items-center
     p-20
     
     
@@ -29,11 +27,10 @@ const SecondSection = () => {
     >
       <div
         className="
-      flex 
-      flex-col
-      justify-center
-      items-center
-      text-5xl
+        flex 
+        flex-col 
+        items-center
+        text-5xl
       font-extrabold
       text-gray-800
       "
@@ -48,12 +45,12 @@ const SecondSection = () => {
         p-10
           "
       >
-        Capture more sales with Wave’s powerful features
+        Capture more sales with Wave’s powerful features.
       </div>
       <div
-        className="flex flex-row justify-around items-center gap-10 m-auto self-center p-10 
+        className="flex flex-col items-center md:flex-row py-10"
         
-          "
+          
       >
         <div className="flex flex-col">
           <Image
@@ -120,8 +117,8 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-row p-10">
-        <div className="flex ">
+      <div className="flex flex-col md:flex-row items-center justify-center py-5">
+        <div className="flex-col">
           <Image
             src="/images/featureimage.png"
             alt="features"
@@ -129,7 +126,7 @@ const SecondSection = () => {
             height={300}
           />
         </div>
-        <div className="flex flex-col text-center justify-center">
+        <div className=" flex-col text-center justify-center ">
           <div className="text-lg p-10 flex flex-row items-center gap-5">
             <Image
               src="/images/store.svg"
@@ -137,7 +134,7 @@ const SecondSection = () => {
               width={50}
               height={50}
             />
-            <div className="text-center ">
+            <div className="">
               Create your own online store and start selling your products and
               services.
             </div>

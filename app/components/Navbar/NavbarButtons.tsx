@@ -2,7 +2,7 @@
 
 const NavbarButtons = () => {
   return (
-    <div>
+    <div className="    flex-row gap-4 items-center hidden md:block ">
       <a
 
         className="
@@ -12,7 +12,6 @@ const NavbarButtons = () => {
         Login
       </a>
       <a
-
         className="
         cursor-pointer
         py-2 
@@ -25,7 +24,7 @@ const NavbarButtons = () => {
         text-lg
         duration-300"
       >
-        Sign Up
+        Book Demo
       </a>
     </div>
   );

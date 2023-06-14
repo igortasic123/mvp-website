@@ -17,14 +17,20 @@ const Logo = () => {
 
 
     return ( 
-    <div className="flex flex-row items-center gap-2 cursor-pointer
+    <div className="flex flex-row items-center gap-2 cursor-pointer 
 
     
     
     "
     onClick={toggleHome}>
         <TiWavesOutline className="text-4xl text-blue-500 "/>
-        <div className="text-2xl font-bold text-blue-500 sm:hidden-block">
+        <div className="text-2xl font-bold text-blue-500 
+        
+        hidden md:block
+
+        
+        
+        ">
             wave
         </div>
     </div>

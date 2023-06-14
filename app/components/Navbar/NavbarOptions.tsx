@@ -20,7 +20,7 @@ const NavbarOptions = () => {
   };
 
   return (
-    <div>
+    <div className=" flex-row gap-4 items-center hidden md:block ">
       <a
         onClick={scrollToHome}
         className="py-2 px-4 text-gray-900 font-semibold text-xl transition duration-300"

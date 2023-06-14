@@ -10,6 +10,7 @@ const ThirdSection = () => {
       flex-col
       justify-center
       items-center
+      px-20
       "
     >
     <div className="text-5xl
@@ -32,14 +33,15 @@ const ThirdSection = () => {
         </div>
 
         </div>
-        <div className="flex gap-10 w-3/4 pb-10 ">
-        <div className="flex-col border-[1px] text-lg w-1/2  rounded-xl p-10 ">
-            <div className="flex flex-row justify-between text-gray-800 text-3xl  ">
-        <div className="flex flex-col  text-gray-800 text-3xl semibold py-5 ">
+        <div className="flex-col  md:flex md:flex-row gap-10 md:p-10 ">
+        
+        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
+            <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
+        <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
             Wave Storefront
         </div>
-        <div className="flex flex-col  text-xl  items-center justify-center text-orange-300 ">
-            5% + $0.50 per order
+        <div className="text-blue-400 text-2xl font-semibold">
+           2.7% + 30¢
         </div>
         </div>
         <div className= "py-10">
@@ -68,13 +70,13 @@ const ThirdSection = () => {
 
         </div>
 
-        <div className="flex-col border-[1px] text-lg  rounded-xl p-10 w-1/2 ">
-            <div className="flex flex-row justify-between text-gray-800 text-3xl  ">
-        <div className="flex flex-col  text-gray-800 text-3xl semibold py-5 ">
+        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
+        <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
+        <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
             Wave Marketplace
         </div>
-        <div className="flex flex-col  text-xl  items-center justify-center text-orange-300 ">
-            10% + $0.50 per order
+        <div className="text-orange-300 text-2xl font-semibold">
+           10% + 30¢
         </div>
         </div>
         <div className= "py-10">
