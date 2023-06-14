@@ -38,7 +38,7 @@ const ThirdSection = () => {
         <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
             <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
         <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
-            Wave Storefront
+            Bird Storefront
         </div>
         <div className="text-blue-400 text-2xl font-semibold">
            2.7% + 30¢
@@ -73,7 +73,7 @@ const ThirdSection = () => {
         <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
         <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
         <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
-            Wave Marketplace
+            Bird Marketplace
         </div>
         <div className="text-orange-300 text-2xl font-semibold">
            10% + 30¢

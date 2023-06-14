@@ -6,7 +6,7 @@ const FourthSection = () => {
       className="
     flex
     flex-col
-    p-20
+    py-10
     
     
     "
@@ -29,13 +29,13 @@ const FourthSection = () => {
       font-extrabold
       text-gray-800
         text-center
-        p-10
+        pt-10
           "
       >
         We're here to help, get in touch with us.
       </div>
         </div>
-      <div className="items-center md:p-20 md:w-3/4 self-center">
+      <div className="items-center md:p-20 md:w-3/4 self-center ">
         <form>
             <div className="flex flex-col gap-10  ">
             <div className="flex flex-col gap-5">

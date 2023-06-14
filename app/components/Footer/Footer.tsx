@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="flex flex-col gap-2">
              
                     <div className="text-gray-500">
-                        © 2023 Wave, Inc. All rights reserved.
+                        © 2023 Bird, Inc. All rights reserved.
                     </div>
                 </div>
                 </div>

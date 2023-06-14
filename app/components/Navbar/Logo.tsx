@@ -1,7 +1,9 @@
 'use client'
 
 
-import { TiWavesOutline} from "react-icons/ti";
+
+
+import { LuBird } from "react-icons/lu";
 
 import { animateScroll as scroll } from "react-scroll";
 
@@ -23,7 +25,7 @@ const Logo = () => {
     
     "
     onClick={toggleHome}>
-        <TiWavesOutline className="text-4xl text-blue-500 "/>
+        <LuBird className="text-4xl text-blue-500 "/>
         <div className="text-2xl font-bold text-blue-500 
         
         hidden md:block
@@ -31,7 +33,7 @@ const Logo = () => {
         
         
         ">
-            wave
+            bird
         </div>
     </div>
     

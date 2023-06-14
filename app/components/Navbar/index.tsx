@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 
-import { GiWaveSurfer } from "react-icons/gi";
 import Logo from "./Logo";
 import NavbarOptions from "./NavbarOptions";
 import NavbarLogin from "./NavbarButtons";
