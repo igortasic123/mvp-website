@@ -32,7 +32,7 @@ const FourthSection = () => {
         pt-10
           "
       >
-        We're here to help, get in touch with us.
+        We are here to help, get in touch with us.
       </div>
         </div>
       <div className="items-center md:p-20 md:w-3/4 self-center ">

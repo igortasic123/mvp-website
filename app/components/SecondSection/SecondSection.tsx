@@ -45,7 +45,7 @@ const SecondSection = () => {
         p-10
           "
       >
-        Capture more sales with Bird's powerful features.
+        Capture more sales with powerful features.
       </div>
       <div
         className="flex flex-col items-center md:flex-row py-10"
