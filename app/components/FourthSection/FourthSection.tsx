@@ -6,7 +6,7 @@ const FourthSection = () => {
       className="
     flex
     flex-col
-    py-10
+    p-10
     
     
     "
@@ -29,15 +29,16 @@ const FourthSection = () => {
       font-extrabold
       text-gray-800
         text-center
-        pt-10
+        p-10
+        
           "
       >
         We are here to help, get in touch with us.
       </div>
         </div>
-      <div className="items-center md:p-20 md:w-3/4 self-center ">
+      <div className="items-center w-full md:w-1/3 self-center ">
         <form>
-            <div className="flex flex-col gap-10  ">
+            <div className="flex flex-col gap-5  ">
             <div className="flex flex-col gap-5">
             <label htmlFor="name">Name </label>
             <input type="text" name="name" id="name" required className="border-[1px] border-gray-300 rounded-xl p-5"/>

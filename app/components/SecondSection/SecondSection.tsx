@@ -20,7 +20,7 @@ const SecondSection = () => {
       className="
     w-full
     flex-col
-    p-20
+    p-10
     
     
     "
@@ -48,7 +48,7 @@ const SecondSection = () => {
         Capture more sales with powerful features.
       </div>
       <div
-        className="flex flex-col items-center md:flex-row py-10"
+        className="flex flex-col items-center md:flex-row p-10"
         
           
       >

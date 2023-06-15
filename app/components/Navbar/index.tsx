@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import Logo from "./Logo";
 import NavbarOptions from "./NavbarOptions";
-import NavbarLogin from "./NavbarButtons";
+import NavbarButtons from "./NavbarButtons";
 
 import { animateScroll as scroll } from "react-scroll";
 
@@ -24,16 +24,15 @@ const Navbar = () => {
     w-full
     p-20
     flex
-    justify-between
     items-center
+    justify-between
+    md:justify-evenly
 
-    
-    
     ">
         
         <Logo   />
         <NavbarOptions />
-        <NavbarLogin />
+        <NavbarButtons />
         </div>
 
     

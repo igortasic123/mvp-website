@@ -1,18 +1,38 @@
 "use client";
 
-const NavbarButtons = () => {
-  return (
-    <div className="    flex-row gap-4 items-center hidden md:block ">
-      <a
+import { AiOutlineMenu } from "react-icons/ai";
 
-        className="
-        cursor-pointer
-        py-2 px-4 text-gray-800 font-semibold transition duration-300  text-lg"
-      >
-        Login
-      </a>
-      <a
-        className="
+import { useState } from "react";
+
+import Link from "next/link";
+
+
+const NavbarButtons = () => {
+  const [menu, setMenu] = useState(true);
+
+  return (
+    <div className="flex flex-row gap-4">
+      <div className="sm:hidden">
+        <AiOutlineMenu
+          onClick={() => setMenu(!menu)}
+          className="text-3xl cursor-pointer  "
+        />
+      </div>
+
+      <div className="sm:block hidden flex-row ">
+        <Link
+          className="
+      cursor-pointer
+      py-2 px-4 text-gray-800 font-semibold transition duration-300  text-lg"
+          href="/Login"
+        >
+          Login
+        </Link>
+      </div>
+      <div className="sm:block hidden ">
+        <Link
+          href="/Demo"
+          className="
         cursor-pointer
         py-2 
         px-4
@@ -23,9 +43,10 @@ const NavbarButtons = () => {
         border-gray-500  
         text-lg
         duration-300"
-      >
-        Book Demo
-      </a>
+        >
+          Book Demo
+        </Link>
+      </div>
     </div>
   );
 };

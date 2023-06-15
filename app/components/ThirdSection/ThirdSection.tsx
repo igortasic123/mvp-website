@@ -48,23 +48,36 @@ const ThirdSection = () => {
         Grow your business with Storefront, which helps you generate commission-free orders directly though your website.
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+        
+        size={30}
+        />
         <div className="">No monthly software fees</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+        
+        size={30}/>
         <div className="">No startup fees or credit card fees</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+                size={30}
+        />
         <div className="">No contracts; cancel any time</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+                size={30}
+        />
         <div className="">Marketing to local customers in your area</div>
+
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <div className="flex flex-row gap-3 p-10 items-center ">
+        <FcCheckmark className="text-green-500"  
+        size={30}
+        
+        />
         <div className="">Create commision-less walk in orders</div>
         </div>
 
@@ -83,19 +96,27 @@ const ThirdSection = () => {
         Market your business to new customers with Marketplace, which helps you generate stress-free orders through our website.
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+                size={30}
+        />
         <div className="">No monthly software fees</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+        
+        size={30}/>
         <div className="">No startup fees or credit card fees</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+        
+        size={30}/>
         <div className="">No contracts; cancel any time</div>
         </div>
         <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"/>
+        <FcCheckmark className="text-green-500"
+        
+        size={30}/>
         <div className="">Marketing to local customers in your area</div>
         </div>
         </div>
