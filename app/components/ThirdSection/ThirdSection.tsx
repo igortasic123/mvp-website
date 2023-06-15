@@ -1,6 +1,7 @@
 "use client";
 
-import { FcCheckmark } from "react-icons/fc";
+
+import { IoShieldCheckmarkOutline } from "react-icons/io5";
 
 const ThirdSection = () => {
   return (
@@ -41,88 +42,62 @@ const ThirdSection = () => {
             Bird Storefront
         </div>
         <div className="text-blue-400 text-2xl font-semibold">
-           2.7% + 30¢
+           5% + $0.30 per order
         </div>
         </div>
         <div className= "py-10">
         Grow your business with Storefront, which helps you generate commission-free orders directly though your website.
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center md:align-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
         
         size={30}
         />
-        <div className="">No monthly software fees</div>
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
+        <div>No monthly software fees </div>
+        </div>
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
         
-        size={30}/>
-        <div className="">No startup fees or credit card fees</div>
-        </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
-                size={30}
-        />
-        <div className="">No contracts; cancel any time</div>
-        </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
-                size={30}
-        />
-        <div className="">Marketing to local customers in your area</div>
-
-        </div>
-        <div className="flex flex-row gap-3 p-10 items-center ">
-        <FcCheckmark className="text-green-500"  
         size={30}
-        
         />
-        <div className="">Create commision-less walk in orders</div>
         </div>
-
+        <div >No Contracts; Cancel anytime </div>
         </div>
-
-        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
-        <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
-        <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
-            Bird Marketplace
-        </div>
-        <div className="text-orange-300 text-2xl font-semibold">
-           10% + 30¢
-        </div>
-        </div>
-        <div className= "py-10">
-        Market your business to new customers with Marketplace, which helps you generate stress-free orders through our website.
-        </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
-                size={30}
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
+        
+        size={30}
         />
-        <div className="">No monthly software fees</div>
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
+        <div>
+          Support via email and chat
+           </div>
+        </div>
+            <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
         
-        size={30}/>
-        <div className="">No startup fees or credit card fees</div>
+        size={30}
+        />
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
-        
-        size={30}/>
-        <div className="">No contracts; cancel any time</div>
+        <div>
+          Unlimited products and orders
+           </div>
         </div>
-        <div className="flex flex-row gap-5 p-10 items-center ">
-        <FcCheckmark className="text-green-500"
-        
-        size={30}/>
-        <div className="">Marketing to local customers in your area</div>
-        </div>
-        </div>
-
  
-
+        </div>
         </div>
         </div>
 

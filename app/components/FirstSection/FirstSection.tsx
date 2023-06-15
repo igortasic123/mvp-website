@@ -11,13 +11,13 @@ const FirstSection = () => {
 
   return (
     
-      <div className=" m-auto justify-between items-center gap-10  md:flex md:w-3/4 duration-300 md:py-10
+      <div className=" m-auto justify-between items-center  md:flex md:w-3/4 duration-300 md:py-10
 
       
 
 
       ">
-      <div className="   justify-center gap-10   lg-flex-row md:w-1/2
+      <div className="   justify-center   lg-flex-row md:w-1/2
       
       ">
         <div className="flex flex-col px-20  self-center justify-around gap-10">
