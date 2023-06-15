@@ -16,7 +16,7 @@ const NavbarOptions = () => {
   };
 
   const scrollToContact = () => {
-    scroll.scrollTo(3300);
+    scroll.scrollTo(3000);
   };
 
   return (

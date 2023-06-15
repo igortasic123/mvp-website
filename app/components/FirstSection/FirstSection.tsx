@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-import { animateScroll as scroll } from "react-scroll";
+import Link from "next/link";
 
 const FirstSection = () => {
 
@@ -31,9 +31,11 @@ const FirstSection = () => {
             enterprise operations.
           </div>
           <div className="">
+            <Link href="/SignUp">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ">
             Get Started
           </button>
+          </Link>
           </div>
           </div>
         </div>

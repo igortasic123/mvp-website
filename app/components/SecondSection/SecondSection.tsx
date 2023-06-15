@@ -117,7 +117,7 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center py-5">
+      <div className="flex flex-col md:flex-row items-center justify-center py-10">
         <div className="flex-col">
           <Image
             src="/images/featureimage.png"

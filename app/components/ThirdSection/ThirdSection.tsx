@@ -36,19 +36,19 @@ const ThirdSection = () => {
         </div>
         <div className="flex-col  md:flex md:flex-row gap-10 md:p-10 ">
         
-        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
+        <div className="flex-col border-[1px] text-lg  rounded-xl p-10 mb-10  md:mb-0">
             <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
-        <div className=" flex-row  text-gray-800 text-2xl semibold py-5 ">
-            Bird Storefront
+        <div className=" flex-row  text-gray-800 text-2xl semibold py-10 ">
+            Bird Storefront (1 -5 locations)
         </div>
         <div className="text-blue-400 text-2xl font-semibold">
-           5% + $0.30 per order
+           7% + $0.30 per order
         </div>
         </div>
         <div className= "py-10">
-        Grow your business with Storefront, which helps you generate commission-free orders directly though your website.
+        Grow your business with Storefront, our online booking solution.
         </div>
-        <div className="flex flex-row gap-5 p-5 md:p-10 items-center md:align-center ">
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center  ">
           <div className="
           text-green-500
           ">
@@ -96,10 +96,73 @@ const ThirdSection = () => {
           Unlimited products and orders
            </div>
         </div>
+        </div>
+        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
+            <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
+        <div className=" flex-row  text-gray-800 text-2xl semibold py-10 ">
+            Bird Storefront Enterprise (5+ Locations)
+        </div>
+        <div className="text-blue-400 text-2xl font-semibold">
+           5% + $0.30 per order
+        </div>
+        </div>
+        <div className= "py-10">
+        Grow your business with Storefront, our online booking solution.
+        </div>
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center  ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
+        
+        size={30}
+        />
+        </div>
+        <div>No monthly software fees </div>
+        </div>
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
+        
+        size={30}
+        />
+        </div>
+        <div >No Contracts; Cancel anytime </div>
+        </div>
+        <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
+        
+        size={30}
+        />
+        </div>
+        <div>
+          Support via email and chat
+           </div>
+        </div>
+            <div className="flex flex-row gap-5 p-5 md:p-10 items-center ">
+          <div className="
+          text-green-500
+          ">
+        <IoShieldCheckmarkOutline className="text-green-500"
+        
+        size={30}
+        />
+        </div>
+        <div>
+          Unlimited products and orders
+           </div>
+        </div>
+        </div>
+ 
  
         </div>
         </div>
-        </div>
+        
 
 
   );
