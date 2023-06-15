@@ -11,7 +11,7 @@ const ThirdSection = () => {
       flex-col
       justify-center
       items-center
-      px-20
+      px-10
       "
     >
     <div className="text-5xl
@@ -34,7 +34,7 @@ const ThirdSection = () => {
         </div>
 
         </div>
-        <div className="flex-col  md:flex md:flex-row gap-10 md:p-10 ">
+        <div className="flex-col gap-10 md:flex md:flex-row  md:p-10 ">
         
         <div className="flex-col border-[1px] text-lg  rounded-xl p-10 mb-10  md:mb-0">
             <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">

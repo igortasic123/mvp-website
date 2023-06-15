@@ -20,7 +20,7 @@ const FirstSection = () => {
       <div className="   justify-center   lg-flex-row md:w-1/2
       
       ">
-        <div className="flex flex-col px-20  self-center justify-around gap-10">
+        <div className="flex flex-col px-10  self-center justify-around gap-10">
           <div className="text-gray-800 font-extrabold text-6xl">
             The #1 booking software for tours and activities
           </div>

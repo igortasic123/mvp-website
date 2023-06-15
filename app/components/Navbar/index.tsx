@@ -22,7 +22,8 @@ const Navbar = () => {
     return ( 
     <div className="
     w-full
-    p-20
+    px-10
+    py-20
     flex
     items-center
     justify-between
