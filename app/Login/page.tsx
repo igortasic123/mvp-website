@@ -18,6 +18,9 @@ const Login = () => {
         
         />
       </Link>
+      <div className="flex flex-col items-center gap-5  w-3/4  md:w-1/4 pt-10 ">
+        <h1 className="text-3xl text-gray-700 font-semibold">Login</h1>
+      </div>
 
       <div className="flex flex-col gap-5 p-5  w-3/4  md:w-1/4 ">
         <label 
@@ -56,7 +59,7 @@ const Login = () => {
 
         <div className="flex flex-col gap-5 p-5  w-3/4 md:w-1/4 ">
           <button className="bg-blue-500 rounded-xl p-5  text-white">
-            Submit
+            Continue
           </button>
         </div>
 
