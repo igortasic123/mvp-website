@@ -16,19 +16,23 @@ const NavbarButtons = () => {
   const closeMobileMenu = () => setclick(false);
 
   const scrollToHome = () => {
+    closeMobileMenu();
     scroll.scrollTo(150);
   };
 
   const scrollToFeatures = () => {
+    closeMobileMenu();
     scroll.scrollTo(1200);
   };
 
   const scrollToPricing = () => {
-    scroll.scrollTo(3900);
+    closeMobileMenu();
+    scroll.scrollTo(3800);
   };
 
   const scrollToContact = () => {
-    scroll.scrollTo(5700);
+    closeMobileMenu();
+    scroll.scrollTo(5600);
   };
 
   return (

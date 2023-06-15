@@ -2,7 +2,13 @@
 
 import { animateScroll as scroll } from "react-scroll";
 
+
 const NavbarOptions = () => {
+
+    
+
+
+
   const scrollToHome = () => {
     scroll.scrollTo(150);
   };
