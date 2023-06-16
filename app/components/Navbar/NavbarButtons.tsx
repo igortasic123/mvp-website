@@ -53,12 +53,13 @@ const NavbarButtons = () => {
            left-0 
            right-10  
            absolute
-          h-screen
           w-screen
           z-50
           scrollbar-hide
-          overflow-y-scroll
+          overflow
           disable-scrollbars
+          h-screen
+          
 
 
          
