@@ -1,4 +1,4 @@
-const DashboardHome = () => {
+const Overview = () => {
   return (
     <div
       className="
@@ -47,4 +47,4 @@ const DashboardHome = () => {
   );
 };
 
-export default DashboardHome;
+export default Overview;
