@@ -57,7 +57,10 @@ const Login = () => {
         </div>
         </div>
 
-        <div className="flex flex-col gap-5 p-5  w-3/4 md:w-1/4 ">
+        <div
+        
+        
+        className="flex flex-col gap-5 p-5  w-3/4 md:w-1/4 ">
           <button className="bg-blue-500 rounded-xl p-5  text-white">
             Continue
           </button>
