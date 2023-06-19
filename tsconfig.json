@@ -23,6 +23,14 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/hooks/useContactForm.js",
+    "app/components/ContactForm/ContactForm.js",
+    "app/Demo/page.tsx"
+  ],
   "exclude": ["node_modules"]
 }

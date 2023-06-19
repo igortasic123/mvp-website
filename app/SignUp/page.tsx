@@ -1,13 +1,59 @@
+'use client'
 
 import React from 'react';
 import Link from 'next/link';
 import { LuBird } from 'react-icons/lu';
+
+import { FcGoogle } from 'react-icons/fc';
+import { useCallback, useState } from 'react';
+
+import {
+  FieldValues,
+  SubmitHandler,
+  useForm,
+
+} from 'react-hook-form';
+
+
+import { toast } from 'react-hot-toast';
+
+import axios from 'axios'
 
 
 
 
 
 const SignUp = () => {
+
+
+  const {
+    register,
+    handleSubmit,
+    formState: { 
+        errors 
+    }
+} = useForm<FieldValues>({
+    defaultValues: {
+        name: '',
+        email: '',
+        password: '',
+    } 
+});
+
+const onSubmit: SubmitHandler<FieldValues> = (data) => {
+
+    axios.post('/api/register', data)
+    .then(() => {
+        toast.success('Account created successfully');
+    })
+    .catch((error) => {
+        toast.error('Something went wrong');
+    })
+}
+
+
+
+
     return (
         <div className="flex flex-col items-center h-screen  justify-center  ">
         <Link href="/">
@@ -58,7 +104,11 @@ const SignUp = () => {
         </div>
 
         <div className="flex flex-col gap-5 p-5  w-3/4 md:w-1/4 ">
-          <button className="bg-blue-500 rounded-xl p-5  text-white">
+          <button 
+
+          onClick={handleSubmit(onSubmit)}
+          
+          className="bg-blue-500 rounded-xl p-5  text-white">
             Create Account
           </button>
         </div>

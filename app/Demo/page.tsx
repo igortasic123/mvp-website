@@ -1,7 +1,5 @@
 const Demo = () => {
-    return ( <div>
-        <h1> book a demo </h1>
-    </div> );
+    return (  <div>PAGE</div>);
 }
  
 export default Demo;

@@ -7,7 +7,6 @@ import Link from "next/link";
 
 const Login = () => {
 
-
   return (
     <div className="flex flex-col items-center h-screen  justify-center  ">
 
@@ -57,14 +56,13 @@ const Login = () => {
         </div>
         </div>
 
-        <div
-        
-        
+        <Link
+          href="/Dashboard"
         className="flex flex-col gap-5 p-5  w-3/4 md:w-1/4 ">
           <button className="bg-blue-500 rounded-xl p-5  text-white">
             Continue
           </button>
-        </div>
+        </Link>
 
         <div className="flex flex-col gap-5 p-5  w-3/4 ">
           <Link 
