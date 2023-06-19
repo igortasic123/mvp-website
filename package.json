@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@types/react-burger-menu": "^2.8.3",
-    "@types/react-scroll": "^1.8.7"
+    "@types/react-scroll": "^1.8.7",
+    "prisma": "^4.15.0"
   }
 }
