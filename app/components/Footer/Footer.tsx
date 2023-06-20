@@ -35,7 +35,7 @@ const Footer = () => {
             Terms and Conditions
           </div>
           <div className="flex flex-col  p-5 cursor-pointer ">
-            Software Licenses
+            Careers at Bird
           </div>
 
           <div className="flex flex-col  p-5 cursor-pointer ">Integrations</div>
