@@ -19,7 +19,7 @@ const Overview = () => {
             <div className="flex flex-col items-center justify-center p-5">
               <h1 className="text-3xl font-semibold">Welcome back, business</h1>
               <p className="text-gray-500">
-                Here's what's happening with your projects today
+                A look at your current projects and their status.
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
