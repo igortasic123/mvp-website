@@ -42,7 +42,7 @@ const ThirdSection = () => {
             Bird Storefront (1 -5 locations)
         </div>
         <div className="text-blue-400 text-2xl font-semibold">
-           7% + $0.30 per order
+           6% + $0.30 per order
         </div>
         </div>
         <div className= "py-10">
