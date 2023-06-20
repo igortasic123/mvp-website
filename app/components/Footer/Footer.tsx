@@ -7,7 +7,8 @@ const Footer = () => {
     
         border-t-[1px]
         border-gray-300
-    
+        hidden
+        md:block
 
 
 
