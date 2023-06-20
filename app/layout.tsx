@@ -17,7 +17,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body 
+      className={font.className}>{children}
+      </body>
+
+      <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+
   
     </html>
   )

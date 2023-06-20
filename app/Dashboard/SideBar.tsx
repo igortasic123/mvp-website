@@ -1,3 +1,5 @@
+'use client'
+
 import { LuBird } from "react-icons/lu";
 
 import Link from "next/link";
@@ -7,9 +9,12 @@ import { AiOutlineBarChart, AiOutlineCalendar } from "react-icons/ai";
 import { LuCalendarDays } from "react-icons/lu";
 import { BsClipboardCheck, BsGear, BsCodeSlash } from "react-icons/bs";
 import { RiTeamLine } from "react-icons/ri";
+import { useState } from "react";
 
 
 const SideBar = () => {
+
+  const [active, setActive] = useState(false);
 
   return (
 
@@ -35,12 +40,15 @@ const SideBar = () => {
         </Link>
       </div>
 
-
-
-      <div className="flex flex-col gap-5 hover:bg-blue-100 p-5 cursor-pointer  ">
-        <div className="flex flex-row items-center gap-5">
+      <div
+      onClick={() => setActive(!active)}
+      className="flex flex-col gap-5 hover:bg-blue-100 p-5 cursor-pointer 
+       "
+       >
+        {
+          active ? (
+        <div className="flex flex-row items-center gap-5 ">
           <BiCustomize size={25} className=" text-gray-500" />
-
           <div>
             <Link href="/Dashboard">
               <p
@@ -54,7 +62,30 @@ const SideBar = () => {
             </Link>
           </div>
         </div>
+
+          ) : (
+              
+              <div className="flex flex-row items-center gap-5 ">
+              <BiCustomize size={25} className=" text-gray-500" />
+              <div>
+                <Link href="/Dashboard">
+                  <p
+                    className="
+                  hidden
+                  md:block
+                  text-gray-500"
+                  >
+                    Overview
+                  </p>
+                </Link>
+              </div>
+            </div>
+  
+            )
+          } 
       </div>
+
+
 
       <div className="flex flex-col  gap-5 hover:bg-blue-100 p-5 cursor-pointer">
         <div className="flex flex-row items-center gap-5">

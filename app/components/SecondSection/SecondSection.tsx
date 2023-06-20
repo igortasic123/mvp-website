@@ -2,17 +2,7 @@
 
 import Image from "next/image";
 
-import { IoGitNetworkOutline } from "react-icons/io5";
 
-import { BiCustomize, BiSupport } from "react-icons/bi";
-
-import { AiOutlineBarChart } from "react-icons/ai";
-
-import { AiOutlineBlock } from "react-icons/ai";
-
-import { CgWebsite } from "react-icons/cg";
-
-import { MdOutlineInventory } from "react-icons/md";
 
 const SecondSection = () => {
   return (
