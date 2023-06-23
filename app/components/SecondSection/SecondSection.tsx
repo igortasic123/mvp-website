@@ -2,11 +2,21 @@
 
 import Image from "next/image";
 
+import { motion } from "framer-motion";
 
+import { slideUp, slideDown } from "@/app/utils/framermotion";
 
 const SecondSection = () => {
   return (
-    <div
+    <motion.div
+
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 2 }}
+    exit={{ opacity: 0 }}
+
+
+
       className="
     w-full
     flex-col
@@ -15,7 +25,15 @@ const SecondSection = () => {
     
     "
     >
-      <div
+      <motion.div
+
+            variants={slideUp("ease", 0, 1.0)}
+            initial="hidden"
+            animate="show"
+            exit="exit"
+            whileInView="show"
+            viewport={{ once: true }}
+
         className="
         flex 
         flex-col 
@@ -25,9 +43,15 @@ const SecondSection = () => {
       text-gray-800
       "
       >
-         Features
-      </div>
-      <div
+        Features
+      </motion.div>
+      <motion.div
+        variants={slideUp("ease", 0, 1.0)}
+        initial="hidden"
+        animate="show"
+        exit="exit"
+        whileInView="show"
+        viewport={{ once: true }}
         className="text-4xl
       font-extrabold
       text-gray-800
@@ -36,13 +60,14 @@ const SecondSection = () => {
           "
       >
         Capture more sales with powerful features.
-      </div>
-      <div
-        className="flex flex-col items-center md:flex-row p-10"
+      </motion.div>
+      <div className="flex flex-col items-center md:flex-row p-10">
+        <div 
+
+
+
         
-          
-      >
-        <div className="flex flex-col">
+        className="flex flex-col">
           <Image
             src="/images/marketplace.svg"
             alt="images"
@@ -165,7 +190,7 @@ const SecondSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
