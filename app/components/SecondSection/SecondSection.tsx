@@ -172,14 +172,16 @@ const SecondSection = () => {
           flex 
           flex-col 
           items-center
+          m-auto
     
       
-          align-center
+     
           md:flex-row    
           md:justify-evenly
           gap-10
           p-10
- 
+          w-1/2
+          self-center 
   
           
           "
@@ -191,6 +193,8 @@ const SecondSection = () => {
               exit={{ opacity: 0, y: 0 }}
               transition={{ duration: 2.0 }}
               className="
+              
+
                           
            
 
@@ -201,8 +205,8 @@ const SecondSection = () => {
               <Image
                 src="/images/featureimage.png"
                 alt="images"
-                width={300}
-                height={300}
+                width={500}
+                height={500}
               />
             </motion.div>
 
