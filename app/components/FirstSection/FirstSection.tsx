@@ -5,17 +5,30 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { motion } from "framer-motion";
+import { InView } from "react-intersection-observer";
 
 import { slideIn } from "@/app/utils/framermotion";
 
 const FirstSection = () => {
   return (
+
+
+
+    <InView triggerOnce={true} threshold={0.5}>
+      {({ inView, ref,  }) => (
+
+
     <motion.div
+
+    ref={ref}
+
       initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
       transition={{ duration: 2 }}
       exit={{ opacity: 0 }}
-      className=" m-auto justify-between items-center  md:flex md:w-3/4 duration-300 md:py-10
+      className=" m-auto justify-between items-center  md:flex md:w-3/4 duration-300 md:py-10 
+
+
 
 
       "
@@ -32,7 +45,10 @@ const FirstSection = () => {
           exit="exit"
           whileInView="show"
           viewport={{ once: true }}
-          className="flex flex-col px-10  self-center justify-around gap-10"
+          className="flex flex-col px-10  self-center justify-around gap-10
+        
+          
+          "
         >
           <div className="text-gray-800 font-extrabold text-6xl">
             The #1 booking software for tours and activities
@@ -54,7 +70,8 @@ const FirstSection = () => {
       </div>
 
       <motion.div
-            variants={slideIn("right", "ease", 0, true,  1.0)}
+            
+        variants={slideIn("right", "ease", 0, true,  1.0)}
         initial="hidden"
         animate="show"
         exit="exit"
@@ -71,6 +88,9 @@ const FirstSection = () => {
         />
       </motion.div>
     </motion.div>
+      )}
+    </InView>
+    
   );
 };
 

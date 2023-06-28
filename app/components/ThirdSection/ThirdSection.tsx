@@ -3,6 +3,14 @@
 
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
 
+import { motion } from "framer-motion";
+
+import { slideUp, slideIn, slideDown } from "@/app/utils/framermotion";
+
+import { InView } from "react-intersection-observer";
+
+
+
 const ThirdSection = () => {
   return (
     <div
@@ -14,7 +22,17 @@ const ThirdSection = () => {
       px-10
       "
     >
-    <div className="text-5xl
+      <InView triggerOnce={true} threshold={0.5}>
+        {({ inView, ref, entry }) => (
+
+    <motion.div
+    ref={ref}
+    initial={{ opacity: 0, y: 0 }}
+    animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 0 }}
+    exit={{ opacity: 0, y: 0 }}
+    transition={{ duration: 2.0 }}
+
+    className="text-5xl
       font-extrabold
       text-gray-800
         text-center
@@ -33,10 +51,23 @@ const ThirdSection = () => {
             Our pricing is simple and transparent. No hidden fees.
         </div>
 
-        </div>
+        </motion.div>
+        )}
+        </InView>
         <div className="flex-col gap-10 md:flex md:flex-row  md:p-10 ">
         
-        <div className="flex-col border-[1px] text-lg  rounded-xl p-10 mb-10  md:mb-0">
+        <InView triggerOnce={true} threshold={0.5}>
+        {({ inView, ref, entry }) => (
+
+        <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: -20 }}
+        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 0 }}
+        exit={{ opacity: 0, y: 0 }}
+        transition={{ duration: 2.0 }}
+
+        
+        className="flex-col border-[1px] text-lg  rounded-xl p-10 mb-10  md:mb-0">
             <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
         <div className=" flex-row  text-gray-800 text-2xl semibold py-10 ">
             Bird Storefront (1 -5 locations)
@@ -96,14 +127,29 @@ const ThirdSection = () => {
           Unlimited products and orders
            </div>
         </div>
-        </div>
-        <div className="flex-col  border-[1px] text-lg  rounded-xl p-10 ">
+        </motion.div>
+        )}
+        </InView>
+
+
+        <InView triggerOnce={true} threshold={0.5}>
+        {({ inView, ref,  }) => (
+
+        <motion.div
+        ref={ref}
+        initial={{ opacity: 0, y: -20 }}
+        animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 0 }}
+        exit={{ opacity: 0, y: 0 }}
+        transition={{ duration: 2.0, delay: 1.0 }}
+
+        
+        className="flex-col border-[1px] text-lg  rounded-xl p-10 mb-10  md:mb-0">
             <div className="flex flex-col md:justify-between items-center text-gray-800 text-3xl  ">
         <div className=" flex-row  text-gray-800 text-2xl semibold py-10 ">
-            Bird Storefront Enterprise (5+ Locations)
+            Bird Storefront (1 -5 locations)
         </div>
         <div className="text-blue-400 text-2xl font-semibold">
-           5% + $0.30 per order
+           6% + $0.30 per order
         </div>
         </div>
         <div className= "py-10">
@@ -157,7 +203,9 @@ const ThirdSection = () => {
           Unlimited products and orders
            </div>
         </div>
-        </div>
+        </motion.div>
+        )}
+        </InView>
  
  
         </div>

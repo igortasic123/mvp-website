@@ -7,8 +7,6 @@ const NavbarOptions = () => {
 
     
 
-
-
   const scrollToHome = () => {
     scroll.scrollTo(150);
   };
